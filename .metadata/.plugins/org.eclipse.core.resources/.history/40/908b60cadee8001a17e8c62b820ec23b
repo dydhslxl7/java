@@ -1,0 +1,5 @@
+package com.kh.second.board.controller;
+
+public class NoticeController {
+
+}

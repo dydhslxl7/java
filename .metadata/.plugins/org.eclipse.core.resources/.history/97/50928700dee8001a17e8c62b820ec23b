@@ -1,0 +1,6 @@
+package com.kh.second.member.controller;
+
+@Controller
+public class MemberController {
+
+}
