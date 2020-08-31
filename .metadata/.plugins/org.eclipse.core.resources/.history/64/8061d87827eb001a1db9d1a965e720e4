@@ -1,0 +1,7 @@
+package com.kh.second.notice.model.vo;
+
+public class Notice implements java.io.Serializable{
+	private static final long serialVersionUID = 2222L;
+	
+	private
+}

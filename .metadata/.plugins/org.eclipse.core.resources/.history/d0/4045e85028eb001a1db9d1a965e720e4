@@ -1,0 +1,38 @@
+package com.kh.second.board.model.vo;
+
+import com.kh.second.notice.model.vo.BOARD_CONTENT;
+import com.kh.second.notice.model.vo.BOARD_NUM;
+import com.kh.second.notice.model.vo.BOARD_ORIGINAL_FILENAME;
+import com.kh.second.notice.model.vo.BOARD_RENAME_FILENAME;
+import com.kh.second.notice.model.vo.BOARD_TITLE;
+import com.kh.second.notice.model.vo.BOARD_WRITER;
+
+public class Board implements java.io.Serializable{
+	private static final long serialVersionUID = L;
+	
+	private int board_num;
+	private String board_title;
+	private String board_writer;
+	private String board_content;
+	private String board_original_filename;
+	private String board_rename_filename;
+	private java.sql.Date board_date;
+	private int board_level;
+	private int board_ref;
+	private int board_reply_ref;
+	private int board_reply_seq;
+	private int board_readcount;
+	
+	BOARD_NUM	NUMBER
+	BOARD_TITLE	VARCHAR2(50 BYTE)
+	BOARD_WRITER	VARCHAR2(15 BYTE)
+	BOARD_CONTENT	VARCHAR2(2000 BYTE)
+	BOARD_ORIGINAL_FILENAME	VARCHAR2(100 BYTE)
+	BOARD_RENAME_FILENAME	VARCHAR2(100 BYTE)
+	BOARD_DATE	DATE
+	BOARD_LEVEL	NUMBER
+	BOARD_REF	NUMBER
+	BOARD_REPLY_REF	NUMBER
+	BOARD_REPLY_SEQ	NUMBER
+	BOARD_READCOUNT	NUMBER
+}

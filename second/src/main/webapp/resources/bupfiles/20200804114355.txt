@@ -1,0 +1,36 @@
+글번호 number  sequence+1 fk
+제목 varchar2(50) not null
+작성자ID varchar2(20) pk
+상세설명 varchar2(2000) not null
+가격 number not null
+작성일 date default sysdate
+수정일 date default sysdate
+조회수 number
+좋아요수  number
+첨부파일기존명1 varchar2(100)
+첨부파일변경명1 varchar2(100)
+첨부파일기존명2 varchar2(100)
+첨부파일변경명2 varchar2(100)
+첨부파일기존명3 varchar2(100)
+첨부파일변경명3 varchar2(100)
+첨부파일기존명4 varchar2(100)
+첨부파일변경명4 varchar2(100)
+지역명 varchar2 (10) notnull
+지역코드 varchar2 (6) notnull
+게시글표시여부 char(1) default Y
+거래방법 
+상품이
+
+
+
+
+중고거래 장터 게시판 댓글번호  number
+중고거래 장터 게시판 번호 number
+댓글 작성자 varchar2(20)
+댓글 작성일 date
+댓글 내용 varchar2(1000)
+bgroup : 그룹
+sorts : 정렬
+depth : 깊이
+subject : 제목
+

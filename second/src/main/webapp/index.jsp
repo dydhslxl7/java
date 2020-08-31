@@ -7,6 +7,6 @@
 <title>second</title>
 </head>
 <body>
-<jsp:forward page="main.do"/>
+<jsp:forward page="main.do" />
 </body>
 </html>
