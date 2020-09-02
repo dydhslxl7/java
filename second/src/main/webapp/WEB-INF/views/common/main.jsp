@@ -146,7 +146,7 @@ $(function(){
 			<c:if test="${ empty loginMember }" >
 		
 		<div id="loginBox" class="lineA">
-			testm 사이트 방문을 환영합니다.<br>
+			Spring second 사이트 방문을 환영합니다.<br>
 			<!-- <button onclick="javascript:location.href='views/member/loginPage.html';">로그인 하세요.</button><br> -->
 			<button onclick="movePage();">로그인 하세요</button>
 			<br> <a>아이디/비밀번호 조회</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -160,7 +160,7 @@ $(function(){
 			님<br>
 			<button onclick="javascript:location.href='logout.do';">로그아웃</button>
 			<br>
-			<c:url var="callMyinfo" value="/myinfo">
+			<c:url var="callMyinfo" value="myinfo.do">
 				<c:param name="userid" value="${ loginMember.userid }" />
 			</c:url>
 			<a href="${ callMyinfo }">My Page</a>
@@ -172,7 +172,7 @@ $(function(){
 			<button onclick="javascript:location.href='logout.do';">로그아웃</button>
 			<br> <a>쪽지</a> &nbsp; &nbsp; <a>메일</a> &nbsp; &nbsp; &nbsp;
 			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-			<c:url var="callMyinfo2" value="/myinfo">
+			<c:url var="callMyinfo2" value="myinfo.do">
 				<c:param name="userid" value="${ loginMember.userid }" />
 			</c:url>
 			<a href="${ callMyinfo2 }">My Page</a>

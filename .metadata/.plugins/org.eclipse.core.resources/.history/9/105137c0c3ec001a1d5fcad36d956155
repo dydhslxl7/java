@@ -1,0 +1,13 @@
+package com.kh.second.test.Controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class TestController {
+	
+	//뷰페이지로 이동 처리용 메소드 -----------------------------------
+	@RequestMapping("mov")
+	public String moveTestAjaxPage() {
+		return "test/testAjaxPage";
+	}
+}

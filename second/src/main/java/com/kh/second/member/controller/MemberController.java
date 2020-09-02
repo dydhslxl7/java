@@ -10,7 +10,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.support.SessionStatus;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.kh.second.member.model.service.MemberService;
 import com.kh.second.member.model.vo.Member;
@@ -33,7 +35,7 @@ public class MemberController {
 		
 		logger.info("login.do : "+member.getUserid()+", "+member.getUserpwd());
 		
-		Member loginMember = memberService.loginCheck(member);
+		Member loginMember = memberService.selectLogin(member);
 		
 		if(loginMember != null) {
 			session.setAttribute("loginMember", loginMember);
@@ -79,6 +81,70 @@ public class MemberController {
 			return "common/error";
 		}
 		
+	}
+	
+	@RequestMapping("myinfo.do")
+	public ModelAndView myInfoMethod(@RequestParam("userid") String userid, ModelAndView mv) {
+		//String userid = request.getParameter("userid");
+		
+		Member member = memberService.selectMember(userid);
+		
+		if(member != null) {
+			mv.setViewName("member/myInfoPage");
+			mv.addObject("member", member);
+		}else {
+			mv.addObject("message", userid + "에 대한 정보 조회 실패!");
+			mv.setViewName("common/error");
+		}
+		
+		return mv;
+	}
+	
+	@RequestMapping("mupview.do")
+	public ModelAndView moveUpdateView(@RequestParam("userid") String userid, ModelAndView mv) {
+		
+		Member member = memberService.selectMember(userid);
+		if(member != null) {
+			mv.addObject("member", member);
+			mv.setViewName("member/memberUpdatePage");
+		}else {
+			mv.addObject("message", userid + "에 대한 수정페이지 이동 실패!");
+			mv.setViewName("common/error");
+		}
+		return mv;
+	}
+	
+	@RequestMapping("mdel.do")
+	public String memberDeleteMethod(@RequestParam("userid") String userid, Model model) {
+		if(memberService.deleteMember(userid) > 0) {
+			return "redirect:/logout.do";
+		}else {
+			model.addAttribute("message", userid + "회원 정보 삭제 실패");
+			return "common/error";
+		}
+	}
+	
+//	@RequestMapping(value="mupdate.do", method=RequestMethod.POST)
+//	public ModelAndView memberUpdateMethod(Member member, ModelAndView mv) {
+//		if(memberService.updateMember(member) > 0) {
+//			member = memberService.selectMember(member.getUserid());
+//			mv.addObject("member", member);
+//			mv.setViewName("member/myInfoPage");
+//		}else {
+//			mv.addObject("message", member.getUserid() + "에 대한 수정 실패!");
+//			mv.setViewName("common/error");
+//		}
+//		return mv;
+//	}
+	
+	@RequestMapping(value="mupdate.do", method=RequestMethod.POST)
+	public String memberUpdateMethod(Member member, Model model) {
+		if(memberService.updateMember(member) > 0) {
+			return "redirect:/myinfo.do?userid="+ member.getUserid();
+		}else {
+			model.addAttribute("message", "수정 실패!");
+			return "common/error";
+		}
 	}
 	
 }

@@ -69,31 +69,31 @@ hr { clear: both; }
 <li><a href="#">사진게시판관리</a></li>
 <li><a href="/testm/views/test/testPage.jsp">필터테스트</a></li>
 <li><a href="#">#</a></li>
-<li><a href="/testm/index.jsp">Home</a></li>
+<li><a href="${ pageContext.servletContext.contextPath }/main.do">Home</a></li>
 </ul>
 </c:if>   
 <c:if test="${ !empty sessionScope.loginMember and loginMember.userid ne 'admin' }" >
 <ul id="menubar">
-<li><a href="enrollPage.do">암호화회원가입</a></li>
+<li><a href="${ pageContext.servletContext.contextPath }/enrollPage.do">암호화회원가입</a></li>
 <li><a href="/nlist">공지사항</a></li>
 <li><a href="/blist?page=1">게시글</a></li>
 <li><a href="#">QnA</a></li>
 <li><a href="#">사진게시판</a></li>
 <li><a href="/testm/views/test/testPage.jsp">필터테스트</a></li>
 <li><a href="#">#</a></li>
-<li><a href="/testm/index.jsp">Home</a></li>
+<li><a href="${ pageContext.servletContext.contextPath }/main.do">Home</a></li>
 </ul>  
 </c:if>
 <c:if test="${ empty sessionScope.loginMember }" >
 <ul id="menubar">
-<li><a href="enrollPage.do">회원가입</a></li>
+<li><a href="${ pageContext.servletContext.contextPath }/enrollPage.do">회원가입</a></li>
 <li><a href="/testm/nlist">공지사항</a></li>
 <li><a href="/testm/blist?page=1">게시글</a></li>
 <li><a href="#">QnA</a></li>
-<li><a href="#">사진게시판</a></li>
-<li><a href="/testm/views/test/testPage.jsp">필터테스트</a></li>
+<li><a href="#">암호화회원가입</a></li>
+<li><a href="${ pageContext.servletContext.contextPath }/moveAjax.do">Ajax테스트</a></li>
 <li><a href="#">#</a></li>
-<li><a href="/testm/index.jsp">Home</a></li>
+<li><a href="${ pageContext.servletContext.contextPath }/main.do">Home</a></li>
 </ul>  
 </c:if>
 </header>

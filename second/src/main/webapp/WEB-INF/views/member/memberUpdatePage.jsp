@@ -6,15 +6,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>testel</title>
+<title>second</title>
 </head>
 <body>
-<%-- <%@ include file="../common/header.jsp" %> --%>
-<c:import url="../common/header.jsp"/>
+<c:import url="/WEB-INF/views/common/header.jsp"/>
 <hr>
 <h1 align="center">회원 정보 수정 페이지</h1>
 <br>
-<form method="post" action="/testm/mupdate">
+<form method="post" action="mupdate.do">
 <table id="outer" align="center" width="500" cellspacing="5" cellpadding="0">
 <tr>
 	<th width="120">이 름</th>
@@ -35,16 +34,13 @@
 <tr>
 	<th>성 별</th>
 	<td>
-	<%-- <% if(member.getGender().equals("M")){  %> --%>
 	<c:if test="${ requestScope.member.gender eq 'M' }">
 		<input type="radio" name="gender" value="M" checked> 남자 &nbsp; 
 	    <input type="radio" name="gender" value="F"> 여자
 	</c:if>
 	<c:if test="${ requestScope.member.gender eq 'F' }">
-	<%-- <% }else{ %> --%>   
 		<input type="radio" name="gender" value="M"> 남자 &nbsp; 
 	    <input type="radio" name="gender" value="F" checked> 여자
-	<%-- <% } %>  --%>
 	</c:if>
 	</td>
 </tr>
@@ -121,7 +117,7 @@
 		<a href="javascript:history.go(-1);">이전 페이지로 이동</a> &nbsp; 
 		<input type="submit" value="수정하기"> &nbsp; 
 		<input type="reset" value="수정취소"> &nbsp; 		
-		<a href="/testm/index.jsp">시작 페이지로</a>
+		<a href="main.do">시작 페이지로</a>
 	</th>	
 </tr>
 </table>
@@ -129,6 +125,6 @@
 <hr>
 <!-- 상대경로만 사용 가능함 -->
 <%-- <%@ include file="../common/footer.jsp" %> --%>
-<c:import url="../common/footer.jsp"/>
+<c:import url="/WEB-INF/views/common/footer.jsp"/>
 </body>
 </html>

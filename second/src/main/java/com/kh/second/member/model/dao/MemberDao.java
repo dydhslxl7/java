@@ -18,7 +18,7 @@ public class MemberDao {
 	
 	public MemberDao() {}
 	
-	public Member loginCheck(Member member) {
+	public Member selectLogin(Member member) {
 		return session.selectOne("memberMapper.loginCheck", member);
 	}
 

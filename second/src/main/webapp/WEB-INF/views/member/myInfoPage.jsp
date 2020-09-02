@@ -6,12 +6,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>testel</title>
+<title>second</title>
 <script type="text/javascript">
 function moveUpdateView(){
 	//요청한 회원의 정보 수정페이지를 내보내는 서블릿을 요청함
 	//다시 요청한 회원의 아이디를 전송해서 처리함
-	location.href = "/testm/mupview?userid=${ requestScope.member.userid }";
+	location.href = "mupview.do?userid=${ requestScope.member.userid }";
 }
 
 function sendDelete(){
@@ -20,13 +20,12 @@ function sendDelete(){
 	//전송방식은 get 방식임
 	
 	//회원 탈퇴처리 서블릿 요청함. userid 같이 전송함
-	location.href = "/testm/mdel?userid=${ requestScope.member.userid }";
+	location.href = "mdel.do?userid=${ requestScope.member.userid }";
 }
 </script>
 </head>
 <body>
-<%-- <%@ include file="../common/header.jsp" %> --%>
-<c:import url="../common/header.jsp"/>
+<c:import url="/WEB-INF/views/common/header.jsp"/>
 <hr>
 <h1 align="center">내 정보 보기 페이지</h1>
 <br>
@@ -71,13 +70,11 @@ function sendDelete(){
 	<th colspan="2">
 		<button onclick="moveUpdateView();">수정페이지로 이동</button> &nbsp; 
 		<button onclick="sendDelete();">탈퇴하기</button> &nbsp; 
-		<a href="/testm/index.jsp">시작 페이지로</a>
+		<a href="main.do">시작 페이지로</a>
 	</th>	
 </tr>
 </table>
 <hr>
-<!-- 상대경로만 사용 가능함 -->
-<%-- <%@ include file="../common/footer.jsp" %> --%>
-<c:import url="../common/footer.jsp"/>
+<c:import url="/WEB-INF/views/common/footer.jsp"/>
 </body>
 </html>

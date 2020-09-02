@@ -43,7 +43,7 @@
 		select * from member
 	</select>
 	
-	<select id="selectMember" parameterType="string" resultMap="resultMember">
+	<select id="selectMember" parameterType="string" resultType="Member">
 		select * from member where userid = #{ uid }
 	</select>
 	

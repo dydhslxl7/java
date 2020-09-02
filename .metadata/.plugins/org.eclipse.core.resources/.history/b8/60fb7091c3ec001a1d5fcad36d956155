@@ -1,0 +1,6 @@
+package com.kh.second.test.Controller;
+
+@Controller
+public class TestController {
+
+}
