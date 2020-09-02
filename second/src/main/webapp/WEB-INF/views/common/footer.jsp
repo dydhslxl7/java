@@ -14,6 +14,8 @@ footer {
 </style>
 </head>
 <body>
+<br>
+<hr>
 <footer>
 copyright@kh 과정평가형 산업기사과정 샘플  2020-07-27<br>
 TEL : 02-1234-5678, FAX : 02-1234-5679

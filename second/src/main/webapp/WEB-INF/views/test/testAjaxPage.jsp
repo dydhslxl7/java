@@ -32,6 +32,100 @@ $(function(){
 			}
 		}); //ajax
 	}); //test1 click
+	
+	//테스트 2 버튼을 클릭하면, 서버 컨트롤러에서 전송한 json받아서 출력
+	$("#test2").on("click", function(){
+		$.ajax({
+			url: "test2.do",
+			type : "post", //json을 받을 때는 post로 지정해야함
+			dataType : "json", //받는 값의 종류 지정(기본 : text)
+			success : function(jsonData){
+				//json객체 한 개를 받았을 때는 바로 출력 처리할 수 있음
+				console.log("jsonData : " + jsonData);
+				
+				$("#d2").html("번호 : " + jsonData.no + 
+						"<br>제목 : " + jsonData.title + 
+						"<br>작성자 : " + decodeURIComponent(jsonData.writer) + 
+						"<br>내용 : " + decodeURIComponent(jsonData.content.replace(/\+/gi, " ")));
+			},
+			error : function(reqest, status, errorData){
+				console.log("error code : " + request.status
+						+ "\nMessage : " + request.responseText
+						+ "\nError : " + errorData);
+			}
+		}); //ajax
+	}); //test2 click
+	
+	//테스트 3 버튼을 클릭하면, 서버 컨트롤러에서 전송한 json배열 받아서 출력
+	$("#test3").on("click", function(){
+		$.ajax({
+			url : "test3.do",
+			type : "post",
+			dataType : "json",
+			success : function(obj){
+				//json배열을 가진 객체를 받은 경우
+				//object ==> String ==> parsing : json
+				console.log(obj); //object
+				
+				//리턴된 객체를 문자열로 변환 처리
+				var objStr = JSON.stringify(obj);
+				//객체문자열을 다시 json객체로 바꿈
+				var jsonObj = JSON.parse(objStr);
+				
+				//출력용 문자열 준비
+				var output = $("#d3").html();
+				
+				//출력용 문자열 만들기
+				for(var i in jsonObj.list) {
+					output += jsonObj.list[i].userid
+						+ ", " + jsonObj.list[i].userpwd
+						+ ", " + decodeURIComponent(jsonObj.list[i].username.replace(/\+/gi, " "))
+						+ ", " + jsonObj.list[i].age
+						+ ", " + jsonObj.list[i].email
+						+ ", " + jsonObj.list[i].phone
+						+ ", " + jsonObj.list[i].birth
+						+ "<br>"
+				}
+				
+				$("#d3").html(output);
+			},
+			error : function(reqest, status, errorData){
+				console.log("error code : " + request.status
+						+ "\nMessage : " + request.responseText
+						+ "\nError : " + errorData);
+			}
+		});//ajax
+	}); //test3 click
+	
+	//테스트 4 버튼을 클릭하면, 서버 컨트롤러에서 전송한 Map객체를 받아서 출력
+	$("#test4").on("click", function(){
+		$.ajax({
+			url: "test4.do",
+			type : "post",
+			dataType : "json",
+			success : function(jsonObj){
+				console.log(jsonObj);
+				
+				$("#d4").html("받은 Map 안의 객체 정보 확인<br>"
+						+ "이름 : " + decodeURIComponent(jsonObj.hashMap.samp.name).replace(/\+/gi, " ")
+						+ ", 나이 : " + jsonObj.hashMap.samp.age);
+			},
+			error : function(reqest, status, errorData){
+				console.log("error code : " + request.status
+						+ "\nMessage : " + request.responseText
+						+ "\nError : " + errorData);
+			}
+		}); //ajax
+	}); //test4 click
+	
+	$("#test5").on("click", function(){
+		
+	}); //test5 click
+	
+	$("#test6").on("click", function(){
+		
+	}); //test6 click
+	
 }); //document.ready
 </script>
 </head>

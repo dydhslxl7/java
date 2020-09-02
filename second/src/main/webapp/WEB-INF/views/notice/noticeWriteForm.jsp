@@ -9,16 +9,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>testm</title>
+<title>second</title>
 </head>
 <body>
-<%-- <%@ include file="../common/header.jsp" %> --%>
 <c:import url="../common/header.jsp"/>
 <hr>
 <h1 align="center">새 공지글 등록 페이지</h1>
 <!-- form 에서 입력값들과 파일을 같이 전송하려면 
 		반드시 enctype="multipart/form-data" 속성을 추가해야 함-->
-<form action="/testm/ninsert.ad" method="post" enctype="multipart/form-data" >
+<form action="ninsert.do" method="post" enctype="multipart/form-data" >
 <table align="center" width="500" border="1" cellspacing="0" 
 cellpadding="5">
 <tr><th>제 목</th><td><input type="text" name="title" size="50"></td></tr>
@@ -38,5 +37,6 @@ cellpadding="5">
 </th></tr>
 </table>
 </form>
+<c:import url="../common/footer.jsp"/>
 </body>
 </html>

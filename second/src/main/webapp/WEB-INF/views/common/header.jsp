@@ -63,7 +63,7 @@ hr { clear: both; }
    
 <ul id="menubar">
 <li><a href="/mlist">회원관리</a></li>
-<li><a href="/nlist.ad">공지글관리</a></li>
+<li><a href="adnlist.do">공지글관리</a></li>
 <li><a href="/blist">게시글관리</a></li>
 <li><a href="#">QnA관리</a></li>
 <li><a href="#">사진게시판관리</a></li>
@@ -75,7 +75,7 @@ hr { clear: both; }
 <c:if test="${ !empty sessionScope.loginMember and loginMember.userid ne 'admin' }" >
 <ul id="menubar">
 <li><a href="${ pageContext.servletContext.contextPath }/enrollPage.do">암호화회원가입</a></li>
-<li><a href="/nlist">공지사항</a></li>
+<li><a href="nlist.do">공지사항</a></li>
 <li><a href="/blist?page=1">게시글</a></li>
 <li><a href="#">QnA</a></li>
 <li><a href="#">사진게시판</a></li>
@@ -87,7 +87,7 @@ hr { clear: both; }
 <c:if test="${ empty sessionScope.loginMember }" >
 <ul id="menubar">
 <li><a href="${ pageContext.servletContext.contextPath }/enrollPage.do">회원가입</a></li>
-<li><a href="/testm/nlist">공지사항</a></li>
+<li><a href="nlist.do">공지사항</a></li>
 <li><a href="/testm/blist?page=1">게시글</a></li>
 <li><a href="#">QnA</a></li>
 <li><a href="#">암호화회원가입</a></li>

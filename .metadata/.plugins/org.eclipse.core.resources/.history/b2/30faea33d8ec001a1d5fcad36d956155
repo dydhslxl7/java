@@ -1,0 +1,21 @@
+package com.kh.second.notice.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.kh.second.notice.dao.NoticeDao;
+
+@Service("noticeService")
+public class NoticeServiceImpl implements NoticeService	{
+	
+	@Autowired
+	private NoticeDao noticeDao;
+	
+	@Override
+	ArrayList<Notice> selectList();
+	Notice selectOne(int noticeNo);
+	int insertNotice(Notice notice);
+	int updateNotice(Notice notice);
+	int deleteNotice(int noticeNo);
+	ArrayList<Notice> selectNewTop3();
+}

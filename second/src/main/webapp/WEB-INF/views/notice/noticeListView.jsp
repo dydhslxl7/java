@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>testm</title>
+<title>second</title>
 </head>
 <body>
 	<%-- <%@ include file="../common/header.jsp" %> --%>
@@ -17,7 +17,7 @@
 		/context-root ==> /로 바뀜
 		/testel ==> /
 	-->
-	<c:import url="/views/common/header.jsp" />
+	<c:import url="/WEB-INF/views/common/header.jsp" />
 	<hr>
 	<h1 align="center">공지사항</h1>
 	<br>
@@ -32,22 +32,23 @@
 		</tr>
 		<c:forEach items="${ requestScope.list }" var="n">
 			<tr>
-				<td align="right">${ n.noticeNo }</td>
-				<c:url value="/ndetail" var="und">
-					<c:param name="noticeno" value="${ n.noticeNo }"></c:param>
+				<td align="right">${ n.noticeno }</td>
+				<c:url value="ndetail.do" var="und">
+					<c:param name="noticeno" value="${ n.noticeno }"></c:param>
 				</c:url>
-				<td><a href="${ und }">${ n.noticeTitle }</a></td>
-				<td>${ n.noticeWriter }</td>
+				<td><a href="${ und }">${ n.noticetitle }</a></td>
+				<td>${ n.noticewriter }</td>
 				<td align="center">
-				<c:if test="${ !empty n.originalFilepath }">
+				<c:if test="${ !empty n.original_filepath }">
 					◎
 				</c:if> 
-				<c:if test="${ empty n.originalFilepath}">
+				<c:if test="${ empty n.original_filepath}">
 					&nbsp;
 				</c:if></td>
-				<td align="center"><fmt:formatDate value="${ n.noticeDate }" /></td>
+				<td align="center"><fmt:formatDate value="${ n.noticedate }" /></td>
 			</tr>
 		</c:forEach>
 	</table>
+	<c:import url="/WEB-INF/views/common/footer.jsp" />
 </body>
 </html>
