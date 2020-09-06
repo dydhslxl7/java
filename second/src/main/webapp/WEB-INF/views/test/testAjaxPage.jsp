@@ -8,7 +8,7 @@
 <title>second</title>
 <script type="text/javascript" src="/second/resources/js/jquery-3.5.1.min.js"></script>
 <script type="text/javascript">
-$(function(){
+$(function(){ //window.onload = function(){};
 	//테스트 1 버튼을 클릭했을 때, 서버 컨트롤러 메소드로 값 보내기
 	$("#test1").on("click", function(){
 		$.ajax({
@@ -118,11 +118,67 @@ $(function(){
 		}); //ajax
 	}); //test4 click
 	
+	//테스트 5 버튼을 클릭하면, json객체를 서버 컨트롤러로 보내기
 	$("#test5").on("click", function(){
+		//자바스크립트 또는 제이쿼리에서 객체 만들기
+		var job = new Object();
+		job.name = "강감찬"; //job.name = $("#name").val();
+		job.age = 33; //job.age = $("#age").val();
+		//var job = {name: "강감찬", age: 33};
+		
+		$.ajax({
+			url: "test5.do",
+			type: "post",
+			data: JSON.stringify(job),
+			contentType: "application/json; charset=utf-8",
+			success: function(result){
+				alert("전송 성공 : " + result);
+				
+				$("#d5").html("전송한 json 객체 값 : " + job.name + ", " + job.age);
+			},
+			error : function(reqest, status, errorData){
+				console.log("error code : " + request.status
+						+ "\nMessage : " + request.responseText
+						+ "\nError : " + errorData);
+			}
+		});
 		
 	}); //test5 click
 	
+	//테스트 6 버튼을 클릭하면, 컨트롤러로 json배열 보내기
 	$("#test6").on("click", function(){
+		//var jarr = new Array(5); //index 사용할 수 있음
+		//jarr[i] = {name: "홍길동", age: 25};
+		
+		//var jarr = new Array(); //Stack구조가 됨. index가 없음
+		//저장 : push(), 꺼내기 : pop() 사용함
+		//jarr.push({name: "홍길동", age: 25});
+		
+		//배열 초기화
+		var jarr = [{name: "홍길동", age: 25},
+					{name: "멍청이", age: 21},
+					{name: "똥바보", age: 33}];
+		
+		$.ajax({
+			url: "test6.do",
+			type: "post",
+			data: JSON.stringify(jarr),
+			contentType: "application/json; charset=utf-8",
+			success: function(result){
+				alert("전송 성공 : " + result);
+				
+				var values = $("#d6").html();
+				for(var i in jarr){
+					values += i + "번째 이름 : " + jarr[i].name + ", 나이 : " + jarr[i].age + "<br>"; 
+				}
+				$("#d6").html(values);
+			},
+			error : function(reqest, status, errorData){
+				console.log("error code : " + request.status
+						+ "\nMessage : " + request.responseText
+						+ "\nError : " + errorData);
+			}
+		});
 		
 	}); //test6 click
 	

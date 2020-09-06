@@ -63,14 +63,14 @@
 	
 	<insert id="insertOriginBoard" parameterType="Board">
 		insert into board 
-		<if test="boardOriginalFileName != null">
+		<if test="board_original_filename != null">
 		values ((select max(board_num) + 1 from board),
 				#{ board_title }, #{ board_writer }, #{ board_content }, 
 				#{ board_original_filename }, #{ board_rename_filename }, 
 				sysdate, 0, (select max(board_num) + 1 from board), 
 				default, default, default)
 		</if>
-		<if test="boardOriginalFileName == null">
+		<if test="board_original_filename == null">
 		(board_num, board_title, board_writer, board_content, 
 		board_date, board_level, board_ref, board_reply_ref, 
 		board_reply_seq, board_readcount)
@@ -127,11 +127,11 @@
 		update board 
 		set board_title = #{ board_title }, 
 			board_content  = #{ board_content }
-			<if test="boardOriginalFileName != null">
+			<if test="board_original_filename != null">
 			, board_original_filename = #{ board_original_filename }, 
 			board_rename_filename = #{ board_rename_filename } 
 			</if>
-			<if test="boardOriginalFileName == null">
+			<if test="board_original_filename == null">
 			, board_original_filename = null, 
 			board_rename_filename = null 
 			</if>
@@ -140,13 +140,13 @@
 	
 	<delete id="deleteBoard" parameterType="Board">
 		delete from board
-		<if test="boardLevel == 0">
+		<if test="board_level == 0">
 			where board_ref = #{ board_num }
 		</if>
-		<if test="boardLevel == 1">
+		<if test="board_level == 1">
 			where board_reply_ref = #{ board_num }
 		</if>
-		<if test="boardLevel == 2">
+		<if test="board_level == 2">
 			where board_num = #{ board_num }
 		</if>
 	</delete>

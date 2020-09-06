@@ -64,7 +64,7 @@ hr { clear: both; }
 <ul id="menubar">
 <li><a href="/mlist">회원관리</a></li>
 <li><a href="adnlist.do">공지글관리</a></li>
-<li><a href="/blist">게시글관리</a></li>
+<li><a href="blist.do">게시글관리</a></li>
 <li><a href="#">QnA관리</a></li>
 <li><a href="#">사진게시판관리</a></li>
 <li><a href="/testm/views/test/testPage.jsp">필터테스트</a></li>
@@ -76,7 +76,7 @@ hr { clear: both; }
 <ul id="menubar">
 <li><a href="${ pageContext.servletContext.contextPath }/enrollPage.do">암호화회원가입</a></li>
 <li><a href="nlist.do">공지사항</a></li>
-<li><a href="/blist?page=1">게시글</a></li>
+<li><a href="blist.do?page=1">게시글</a></li>
 <li><a href="#">QnA</a></li>
 <li><a href="#">사진게시판</a></li>
 <li><a href="/testm/views/test/testPage.jsp">필터테스트</a></li>
@@ -88,9 +88,9 @@ hr { clear: both; }
 <ul id="menubar">
 <li><a href="${ pageContext.servletContext.contextPath }/enrollPage.do">회원가입</a></li>
 <li><a href="nlist.do">공지사항</a></li>
-<li><a href="/testm/blist?page=1">게시글</a></li>
-<li><a href="#">QnA</a></li>
-<li><a href="#">암호화회원가입</a></li>
+<li><a href="blist.do">게시글</a></li>
+<li><a href="${ pageContext.servletContext.contextPath }/moveFile.do">파일업로드/다운로드 테스트</a></li>
+<li><a href="moveCrypto.do">암호화회원가입</a></li>
 <li><a href="${ pageContext.servletContext.contextPath }/moveAjax.do">Ajax테스트</a></li>
 <li><a href="#">#</a></li>
 <li><a href="${ pageContext.servletContext.contextPath }/main.do">Home</a></li>

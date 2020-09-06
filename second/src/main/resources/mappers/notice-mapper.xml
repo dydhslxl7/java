@@ -34,7 +34,7 @@
 	
 	<insert id="insertNotice" parameterType="Notice">
 		insert into notice
-		<if test="originalFilepath != null">
+		<if test="original_filepath != null">
 		values ((select max(noticeno)+1 from notice), 
 				#{ noticetitle }, 
 				sysdate, 
@@ -43,7 +43,7 @@
 				#{ original_filepath }, 
 				#{ rename_filepath })
 		</if>
-		<if test="originalFilepath == null">
+		<if test="original_filepath == null">
 		(noticeno, noticetitle, noticedate, noticewriter, noticecontent)
 		values ((select max(noticeno)+1 from notice), 
 				#{ noticetitle }, 
@@ -60,11 +60,11 @@
          	noticedate = sysdate 
          
         <!-- null일 경우 에러남, null이 아닐경우에만 동적 SQL 사용 -->
-        <if test="originalFilepath != null"> <!-- JSTL, EL 이랑 헷갈리지 않기 -->
+        <if test="original_filepath != null"> <!-- JSTL, EL 이랑 헷갈리지 않기 -->
          	, original_filepath = #{ original_filepath }, 
         	rename_filepath = #{ rename_filepath } 
       	</if>
-      	<if test="originalFilepath == null">
+      	<if test="original_filepath == null">
          	, original_filepath = null, 
          	rename_filepath = null
       	</if>

@@ -35,7 +35,7 @@ public class Sample implements java.io.Serializable{
 
 	@Override
 	public String toString() {
-		return "Sample [name=" + name + "]";
+		return "Sample [name=" + name + ", age=" + age + "]";
 	}
-	
+
 }

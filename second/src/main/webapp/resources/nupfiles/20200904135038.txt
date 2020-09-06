@@ -1,0 +1,29 @@
+pageContext.
+= 현재 페이지
+servletContext
+= getContext
+contextPath
+= getPath
+
+${ pageContext.servletContext.contextPath }/main.do
+= /second/main.do
+우리가 직접 쓰면 작동이 안되지만 저렇게 읽어와서
+경로를 쓰면 작동이 된다.
+
+json 다룰 때는 post 방식
+
+<beans:property name="order" value="1" />
+0부터 시작이라 이건 두번째로 시작
+
+
+
+
+
+
+
+
+
+
+
+
+

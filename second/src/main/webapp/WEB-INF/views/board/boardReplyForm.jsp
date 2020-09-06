@@ -11,15 +11,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>testel</title>
+<title>second</title>
 </head>
 <body>
-<h1 align="center">${ boardNum }번 글 댓글달기 페이지</h1>
-<%-- <%@ include file="../common/header.jsp" %> --%>
+<h1 align="center">${ board_num }번 글 댓글달기 페이지</h1>
 <c:import url="../common/header.jsp"/>
 <hr>
-<form action="/testm/breply" method="post" >
-<input type ="hidden" name="bnum" value="${ boardNum }">
+<form action="breply.do" method="post" >
+<input type ="hidden" name="bnum" value="${ board_num }">
 <input type = "hidden" name= "page" value = "${ currentPage }">
 <table align="center" width="500" border="1" cellspacing="0" cellpadding="5">
 <th>제 목</th><td><input type="text" name="title" size="50"></td>
@@ -34,13 +33,13 @@
 <tr><th colspan="2">
 <input type="submit" value="등록하기"> &nbsp; 
 <input type="reset" value="작성취소"> &nbsp;
-<c:url var="bl" value="/blist">
+<c:url var="bl" value="blist.do">
 	<c:param name="page" value="${ currentPage }"/>
 </c:url>
 <button onclick="javascript:location.href='${ bl }'; return false;"> 목록</button>
 </th></tr>
 </table>
 </form>
-
+<c:import url="../common/footer.jsp"/>
 </body>
 </html>

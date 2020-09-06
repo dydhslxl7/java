@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>anavada error page</title>
+<title>second error page</title>
 </head>
 <body>
 <%@ include file="./header.jsp" %>
@@ -16,7 +16,7 @@
 <h3>Servlet 메세지 : <%= request.getAttribute("message") %></h3>
 <% } %>
 <br>
-<a href="/testm/index.jsp">시작페이지로 이동</a>
+<a href="main.do">시작페이지로 이동</a>
 
 </body>
 </html>

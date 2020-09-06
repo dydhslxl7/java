@@ -49,7 +49,7 @@ div#banner img {
 	height: 110px;
 }
 </style>
-<script type="text/javascript" src="/resources/js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="resources/js/jquery-3.5.1.min.js"></script>
 <script type="text/javascript">
 $(function(){
 		/*
@@ -65,7 +65,7 @@ $(function(){
 
 
 	$.ajax({
-		url : "/ntop3",
+		url : "ntop3.do",
 		type : "get",
 		dataType : "json",
 		success : function(data) {
@@ -79,11 +79,10 @@ $(function(){
 			for ( var i in json.list) {
 				values += "<tr><td>"
 						+ json.list[i].no
-						+ "</td><td><a href='/ndetail?noticeno="
+						+ "</td><td><a href='ndetail.do?noticeno="
 						+ json.list[i].no
 						+ "'>"
-						+ decodeURIComponent(json.list[i].title).replace(
-								/\+/gi, " ") + "</a></td><td>"
+						+ decodeURIComponent(json.list[i].title).replace(/\+/gi, " ") + "</a></td><td>"
 						+ json.list[i].date + "</td></tr>";
 			} // for in
 
@@ -97,7 +96,7 @@ $(function(){
 	
 		//조회수 많은 인기 게시 원글 3개 조회 출력 처리
 		$.ajax({
-				url: "/btop3",
+				url: "btop3.do",
 				type: "get",
 				dataType: "json",
 				success : function(data) {
@@ -111,11 +110,10 @@ $(function(){
 					for ( var i in json.list) {
 						values += "<tr><td>"
 								+ json.list[i].bnum
-								+ "</td><td><a href='/bdetail?bnum="
+								+ "</td><td><a href='bdetail.do?bnum="
 								+ json.list[i].bnum
 								+ "'>"
-								+ decodeURIComponent(json.list[i].btitle).replace(
-										/\+/gi, " ") + "</a></td><td>"
+								+ decodeURIComponent(json.list[i].btitle).replace(/\+/gi, " ") + "</a></td><td>"
 								+ json.list[i].rcount + "</td></tr>";
 					} // for in
 

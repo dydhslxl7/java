@@ -13,12 +13,12 @@
 <h2 align="center">${ notice.noticeno }번 글 수정페이지</h2>
 <br>
 <form action="nupdate.do" method="post" enctype="multipart/form-data" >
-<input type="hidden" name="no" value="${ notice.noticeno }">
-<input type="hidden" name="ofile" value="${ notice.original_filepath }">
-<input type= "hidden" name= "rfile" value= "${ notice.rename_filepath }">
+<input type="hidden" name="noticeno" value="${ notice.noticeno }">
+<input type="hidden" name="original_filepath" value="${ notice.original_filepath }">
+<input type= "hidden" name= "rename_filepath" value= "${ notice.rename_filepath }">
 <table align="center" width="500" border="1" cellspacing="0" cellpadding="5">
-<tr><th>제 목</th><td><input type="text" name="title" size="50" value="${ notice.noticetitle }"></td></tr>
-<tr><th>작성자</th><td><input type="text" name="writer" readonly value="${ notice.noticewriter }"></td></tr>
+<tr><th>제 목</th><td><input type="text" name="noticetitle" size="50" value="${ notice.noticetitle }"></td></tr>
+<tr><th>작성자</th><td><input type="text" name="noticewriter" readonly value="${ notice.noticewriter }"></td></tr>
 </tr>
 <tr>
 	<th>첨부 파일 :</th>
@@ -33,7 +33,7 @@
 			</c:if>
 	</td>
 </tr>
-<tr><th>내 용</th><td><textarea rows="5" cols="50" name="content">${ notice.noticecontent }</textarea></td></tr>
+<tr><th>내 용</th><td><textarea rows="5" cols="50" name="noticecontent">${ notice.noticecontent }</textarea></td></tr>
 <tr><th colspan="2">
 <input type="submit" value="수정하기"> &nbsp; 
 <input type="reset" value="수정취소"> &nbsp;

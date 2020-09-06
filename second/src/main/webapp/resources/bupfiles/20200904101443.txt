@@ -1,0 +1,9 @@
+method=RequestMethod.GET은 생략가능
+
+* com.kh.second..*ServiceImpl.*(..)
+
+.. : 모든 하위폴더
+*ServiceImpl : 모든 serviceImpl
+.*(..) : 안에 있는 모든 메서드가 실행될때
+transactionManager가 실행되라
+

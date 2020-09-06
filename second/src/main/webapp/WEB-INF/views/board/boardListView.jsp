@@ -12,15 +12,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>testm</title>
+<title>second</title>
 <script type="text/javascript">
    function showWriteForm() {
-      location.href = "/testm/views/board/boardWriteForm.jsp";
+      location.href = "writeForm.do";
    }
 </script>
 </head>
 <body>
-   <c:import url="/views/common/header.jsp"/><hr>
+   <c:import url="../common/header.jsp"/><hr>
    <h2 align="center">
       게시글 목록 : 총 ${ listCount }개
    </h2>
@@ -41,35 +41,35 @@
       </tr>
       <c:forEach var="b" items="${ requestScope.list }">
             <tr>
-               <td align="center"> ${ b.boardNum }</td>
+               <td align="center"> ${ b.board_num }</td>
                <td>
                <!--  댓글일때는 제목을 들여쓰기함 -->
-               <c:if test="${ b.boardLevel eq 1 }">
+               <c:if test="${ b.board_level eq 1 }">
                &nbsp; &nbsp; ▶
                </c:if>
-               <c:if test="${ b.boardLevel eq 2 }">
+               <c:if test="${ b.board_level eq 2 }">
                &nbsp; &nbsp; &nbsp; &nbsp; ▶▶
                </c:if>
                <!-- 로그인한 사용자만(회원만) 상세보기 할 수 있게 함 -->
                <c:if test="${ !empty sessionScope.loginMember }">
-               		<c:url var="bde" value="/bdetail">
-               			<c:param name="bnum" value="${ b.boardNum }"/>
+               		<c:url var="bde" value="bdetail.do">
+               			<c:param name="bnum" value="${ b.board_num }"/>
                			<c:param name="page" value="${ currentPage }" />
                		</c:url>
-               		<a href="${ bde }">${ b.boardTitle }</a>
+               		<a href="${ bde }">${ b.board_title }</a>
                </c:if>
                <c:if test="${ empty sessionScope.loginMember }">
-               		${ b.boardTitle }
+               		${ b.board_title }
                </c:if>
                </td>
-               <td align="center">${ b.boardWriter }</td>
-               <td align="center"><fmt:formatDate value="${ b.boardDate }" type="date" pattern="yy.MM.dd"/></td>
-               <td align="center">${ b.boardReadCount }</td>
+               <td align="center">${ b.board_writer }</td>
+               <td align="center"><fmt:formatDate value="${ b.board_date }" type="date" pattern="yy.MM.dd"/></td>
+               <td align="center">${ b.board_readcount }</td>
                <td align="center">
-               <c:if test="${ !empty b.boardOriginalFileName }">
+               <c:if test="${ !empty b.board_original_filename }">
 					 ◎
 			   </c:if>
-			   <c:if test="${ empty b.boardOriginalFileName }">
+			   <c:if test="${ empty b.board_original_filename }">
                &nbsp;
                </c:if>
                </td>
@@ -83,14 +83,14 @@
 			[첫페이지]&nbsp;
 	</c:if>
 	<c:if test="${ currentPage > 1 }">
-		<c:url var="bl" value="/blist">
+		<c:url var="bl" value="blist.do">
 			<c:param name="page" value="1"/>
 		</c:url>
 		<a href="${ bl }">[맨처음]</a>
 	</c:if>
 	<!--  이전 그룹으로 이동 처리  -->
 	<c:if test="${ (currentPage - 10) lt startPage and (currentPage - 10) > 1 }">
-		<c:url var="bl2" value="/blist">
+		<c:url var="bl2" value="blist.do">
 			<c:param name="page" value="${ startPage - 10 }"/>
 		</c:url>
 		<a href="${ bl2 }">[이전그룹]</a>
@@ -104,7 +104,7 @@
 			<font color="red" size="4"><b>[${ p }]</b></font>
 		</c:if>
 		<c:if test="${ p ne currentPage }">
-			<c:url var="bl3" value="/blist">
+			<c:url var="bl3" value="blist.do">
 				<c:param name="page" value="${ p }"/>
 			</c:url>
 			<a href="${ bl3 }">${ p }</a>
@@ -112,7 +112,7 @@
 	</c:forEach>
 	<!-- 다음 그룹으로 이동 처리 -->
 	<c:if test="${ (currentPage + 10) > endPage && (currentPage + 10) < maxPage }">
-		<c:url var="bl4" value="/blist">
+		<c:url var="bl4" value="blist.do">
 			<c:param name="page" value="${ endPage + 10 }"/>
 		</c:url>
 	<a href="${ bl4 }">[다음그룹]</a>
@@ -125,7 +125,7 @@
 			[맨끝]&nbsp;
 	</c:if>
 	<c:if test="${ currentPage < maxPage }">
-		<c:url var="bl5" value="/blist">
+		<c:url var="bl5" value="blist.do">
 			<c:param name="page" value="${ maxPage }"/>
 		</c:url>
 			<a href="${ bl5 }">[맨끝]</a>
@@ -133,7 +133,6 @@
 		
 	</div>
 	<hr>
-   <%-- <%@ include file="../common/footer.jsp"%> --%>
-   <c:import url="/views/common/footer.jsp"/>
+   <c:import url="../common/footer.jsp"/>
 </body>
 </html>

@@ -2,6 +2,9 @@ package com.kh.second.test.model.vo;
 
 import java.sql.Date;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class User implements java.io.Serializable{
 	private static final long serialVersionUID = 8888L;
 	
