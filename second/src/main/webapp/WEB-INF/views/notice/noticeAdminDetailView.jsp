@@ -25,7 +25,7 @@
 			<c:param name="ofile" value="${ notice.original_filepath }"/>
 			<c:param name="rfile" value="${ notice.rename_filepath }"/>
 		</c:url>
-		<a href="nfd">${ notice.original_filepath }</a>
+		<a href="${ nfd }">${ notice.original_filepath }</a>
 		</c:if>
 		<c:if test="${ empty notice.original_filepath }">
 		&nbsp;
@@ -39,7 +39,7 @@
 </c:url>
 <c:url var="nd" value="ndel.do">
 	<c:param name="noticeno" value="${ notice.noticeno }"/>
-	<c:param name="rfile" value="${ notice.rename_filepath }"/>
+	<c:param name="rename_filepath" value="${ notice.rename_filepath }"/>
 </c:url>
 <button onclick="javascript:location.href='${ npm }';">수정페이지로 이동</button> &nbsp; 
 <button onclick="javascript:location.href='${ nd }';">삭제하기</button> &nbsp; 

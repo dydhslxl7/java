@@ -1,15 +1,13 @@
 package com.kh.second.board.controller;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -21,7 +19,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.util.FileCopyUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -148,9 +145,9 @@ public class BoardController {
 		int result = boardService.deleteBoard(board);
 		
 		if(result > 0) {
-			if(request.getParameter("rfileName") != null) {
+			if(request.getParameter("rfile") != null) {
 				String savePath = request.getSession().getServletContext().getRealPath("resources/bupfiles");
-				new File(savePath + "\\" + request.getParameter("rfileName")).delete();
+				new File(savePath + "\\" + request.getParameter("rfile")).delete();
 			}
 			return "redirect:blist.do";
 		}else {
@@ -163,12 +160,12 @@ public class BoardController {
 	public ModelAndView boardFileDown(HttpServletRequest request, @RequestParam() String ofile, @RequestParam() String rfile) {
 		String savePath = request.getSession().getServletContext().getRealPath("resources/bupfiles");
 		
-		HashMap<String, String> map = new HashMap<>();
+		Map<String, String> map = new HashMap<>();
 		map.put("savePath", savePath);
 		map.put("ofileName", ofile);
 		map.put("rfileName", rfile);
 		
-		return new ModelAndView("nbfileDown", "map", map);
+		return new ModelAndView("nbfiledown", "downFile", map);
 	}
 	
 	@RequestMapping(value="binsert.do", method=RequestMethod.POST)
@@ -200,6 +197,30 @@ public class BoardController {
 		}
 	}
 	
+	@RequestMapping(value="breply.do", method=RequestMethod.POST)
+	public String boardReplyInsert(HttpServletRequest request, Board reply) {
+		
+		int page = Integer.parseInt(request.getParameter("page"));
+		
+		Board board = boardService.selectBoard(reply.getBoard_ref());
+		
+		reply.setBoard_level(board.getBoard_level() + 1);
+		if(reply.getBoard_level() == 2)
+			reply.setBoard_ref(board.getBoard_ref());
+			reply.setBoard_reply_ref(board.getBoard_reply_ref());
+		reply.setBoard_reply_seq(1);
+		boardService.updateReplySeq(reply);
+		
+		int result = boardService.insertReply(reply);
+		
+		if(result > 0) {
+			return "redirect:blist.do?page"+page;
+		}else {
+			request.setAttribute("message", "게시글 등록 실패!");
+			return "common/error";
+		}
+	}
+	
 	@RequestMapping("bupview.do")
 	public String moveBoardUpdate(HttpServletRequest request, Model model) {
 		Board board = boardService.selectBoard(Integer.parseInt(request.getParameter("bnum")));
@@ -212,15 +233,17 @@ public class BoardController {
 	public String updateBoardOrigin(Board board, HttpServletRequest request, @RequestParam(name = "upfile", required = false) MultipartFile upfile) {
 		String originalFileName = board.getBoard_original_filename();
 		String renameFileName = board.getBoard_rename_filename();
-		String deleteFlag = request.getParameter("deleteFlag");
+		String deleteFlag = request.getParameter("delFlag");
 		String savePath = savePath(request);
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmssSSS");
-		String newOriginalFileName = upfile != null ? upfile.getOriginalFilename() : null;
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
+		String newOriginalFileName = (upfile != null ? upfile.getOriginalFilename() : null);
+		logger.info(newOriginalFileName);
 		String newRenameFileName = null;
 
-		if (newOriginalFileName != null && !originalFileName.equals(newOriginalFileName)) {
+		if (newOriginalFileName != null && originalFileName.isEmpty()) {
+			logger.info("1");
 			newRenameFileName = sdf.format(new java.sql.Date(System.currentTimeMillis()));
-			newRenameFileName += "." + newOriginalFileName.substring(originalFileName.lastIndexOf(".") + 1);
+			newRenameFileName += "." + newOriginalFileName.substring(newOriginalFileName.lastIndexOf(".") + 1);
 			try {
 				upfile.transferTo(new File(savePath + "\\" + newRenameFileName));
 			} catch (IllegalStateException | IOException e) {
@@ -232,15 +255,16 @@ public class BoardController {
 			board.setBoard_original_filename(newOriginalFileName);
 			board.setBoard_rename_filename(newRenameFileName);
 		} else if (!originalFileName.isEmpty() && deleteFlag != null && deleteFlag.equals("yes")) {
+			logger.info("2");
 			board.setBoard_original_filename(null);
 			board.setBoard_rename_filename(null);
 			new File(savePath + "\\" + renameFileName).delete();
 		} else if (!originalFileName.isEmpty() && (newOriginalFileName == null || originalFileName.equals(newOriginalFileName) &&
 				new File(savePath+ "\\" + renameFileName).length() == new File(savePath + "\\" + newRenameFileName).length())) {
+			logger.info("3");
 			board.setBoard_original_filename(originalFileName);
 			board.setBoard_rename_filename(renameFileName);
 		}
-		logger.info(newOriginalFileName);
 
 		if (boardService.updateOrigin(board) > 0) {
 			return "redirect:blist.do";
@@ -249,5 +273,13 @@ public class BoardController {
 		}
 	}
 
-	
+	@RequestMapping(value = "breplyup.do", method = RequestMethod.POST)
+	public String updateBoardReply(Board board, HttpServletRequest request) {
+		
+		if (boardService.updateReply(board) > 0) {
+			return "redirect:blist.do";
+		} else {
+			return "common/error";
+		}
+	}
 }

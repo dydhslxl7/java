@@ -1,0 +1,1114 @@
+[12:26:55][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[12:27:02][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 6854 ms
+[12:27:02][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[12:27:09][INFO ][FrameworkServlet.java:546] - Completed initialization in 7640 ms
+[12:42:26][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:26][DEBUG][LoggerInterceptor.java:28] - /second/main.do
+[12:42:26][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:26][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:26][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:27][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:27][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:27][DEBUG][LoggerInterceptor.java:28] - /second/ntop3.do
+[12:42:27][DEBUG][LoggerInterceptor.java:28] - /second/btop3.do
+[12:42:27][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:27][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:29][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:29][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:29][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:29][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:34][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:34][DEBUG][LoggerInterceptor.java:28] - /second/enrollPage.do
+[12:42:34][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:34][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:34][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:36][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:36][DEBUG][LoggerInterceptor.java:28] - /second/nlist.do
+[12:42:36][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:36][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:36][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:39][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:39][DEBUG][LoggerInterceptor.java:28] - /second/ndetail.do
+[12:42:39][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:39][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:39][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:41][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:41][DEBUG][LoggerInterceptor.java:28] - /second/nfdown.do
+[12:42:41][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:41][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:41][DEBUG][AbstractView.java:309] - View name 'nbfiledown', model {downFile={savePath=C:\dev\framework_workspace\second\src\main\webapp\resources\nupfiles, rfileName=20200906171156.txt, ofileName=회사 팁.txt}}
+[12:42:41][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:44][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:44][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[12:42:44][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:44][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:44][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:47][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:47][DEBUG][LoggerInterceptor.java:28] - /second/main.do
+[12:42:47][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:47][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:47][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:47][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:47][DEBUG][LoggerInterceptor.java:28] - /second/ntop3.do
+[12:42:47][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:47][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:47][DEBUG][LoggerInterceptor.java:28] - /second/btop3.do
+[12:42:47][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:47][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:47][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:47][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:47][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:48][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:48][DEBUG][LoggerInterceptor.java:28] - /second/loginPage.do
+[12:42:48][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:48][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:48][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:53][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:53][DEBUG][LoggerInterceptor.java:28] - /second/login.do
+[12:42:53][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:53][INFO ][MemberController.java:36] - login.do : user02, pass02
+[12:42:53][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:53][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:53][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:53][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:53][DEBUG][LoggerInterceptor.java:28] - /second/btop3.do
+[12:42:53][DEBUG][LoggerInterceptor.java:28] - /second/ntop3.do
+[12:42:53][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:53][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:53][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:53][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:53][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:53][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:54][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:54][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[12:42:54][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:54][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:54][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:56][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:56][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[12:42:56][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:56][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:56][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:42:58][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:42:58][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[12:42:58][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:42:58][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:42:58][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:43:06][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:43:06][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[12:43:06][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:43:06][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:44:35][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[12:44:42][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 6788 ms
+[12:44:42][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[12:44:49][INFO ][FrameworkServlet.java:546] - Completed initialization in 6740 ms
+[12:44:58][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:44:58][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[12:44:58][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:45:00][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:45:02][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:45:05][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:45:05][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[12:45:05][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:45:06][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:45:10][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:45:10][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[12:45:10][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:45:10][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:45:10][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:45:12][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:45:12][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[12:45:12][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:45:12][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:45:14][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:45:14][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[12:45:14][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:45:15][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:45:15][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:45:16][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:45:16][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[12:45:16][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:45:16][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:50:18][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[12:50:25][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 6933 ms
+[12:50:25][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[12:50:32][INFO ][FrameworkServlet.java:546] - Completed initialization in 6991 ms
+[12:50:39][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:50:39][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[12:50:39][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:50:42][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:50:42][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:50:47][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:50:47][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[12:50:47][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:50:47][INFO ][BoardController.java:240] - 
+[12:50:47][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:50:47][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:50:47][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:50:47][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[12:50:47][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:50:47][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:50:47][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:50:50][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:50:50][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[12:50:50][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:50:50][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:50:50][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:50:53][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:50:53][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[12:50:53][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:50:53][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:50:53][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:50:55][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:50:55][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[12:50:55][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:50:55][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:50:55][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:50:56][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:50:56][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[12:50:56][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:50:56][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:50:56][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:55:52][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[12:55:59][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 6720 ms
+[12:55:59][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[12:56:06][INFO ][FrameworkServlet.java:546] - Completed initialization in 6709 ms
+[12:56:06][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:56:06][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[12:56:06][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:56:09][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:56:09][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:56:12][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:56:12][DEBUG][LoggerInterceptor.java:28] - /second/writeForm.do
+[12:56:12][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:56:12][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:56:12][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:56:22][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:56:22][DEBUG][LoggerInterceptor.java:28] - /second/binsert.do
+[12:56:22][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:56:22][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:56:22][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:56:22][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:56:22][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[12:56:22][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:56:22][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:56:22][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:56:24][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:56:24][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[12:56:24][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:56:24][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:56:24][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:56:25][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:56:25][DEBUG][LoggerInterceptor.java:28] - /second/bfdown.do
+[12:56:25][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:56:25][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:56:25][DEBUG][AbstractView.java:309] - View name 'nbfiledown', model {downFile={savePath=C:\dev\framework_workspace\second\src\main\webapp\resources\bupfiles, rfileName=20200907125622.txt, ofileName=쇼핑몰.txt}}
+[12:56:25][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:56:28][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:56:28][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[12:56:28][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:56:28][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:56:28][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:56:30][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:56:30][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[12:56:30][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:56:30][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:56:30][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:56:31][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:56:31][DEBUG][LoggerInterceptor.java:28] - /second/bdelete.do
+[12:56:31][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:56:31][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:56:31][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:56:31][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:56:31][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[12:56:31][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:56:31][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:56:31][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:56:38][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:56:38][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[12:56:38][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:56:38][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:56:38][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:56:39][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:56:39][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[12:56:39][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:56:39][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:56:40][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:56:44][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:56:44][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[12:56:44][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:56:44][INFO ][BoardController.java:216] - 
+[12:56:44][INFO ][BoardController.java:220] - 1
+[12:56:44][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:56:44][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:56:44][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:56:44][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[12:56:44][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:56:44][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:56:44][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:59:04][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[12:59:11][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 6987 ms
+[12:59:11][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[12:59:18][INFO ][FrameworkServlet.java:546] - Completed initialization in 7010 ms
+[12:59:18][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:59:18][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[12:59:18][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:59:21][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:59:21][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:59:26][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:59:26][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[12:59:26][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:59:27][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:59:27][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:59:29][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:59:29][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[12:59:29][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:59:29][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:59:29][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:59:34][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:59:34][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[12:59:34][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:59:34][INFO ][BoardController.java:216] - 쇼핑몰.txt
+[12:59:34][INFO ][BoardController.java:220] - 1
+[12:59:34][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:59:34][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:59:34][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:59:34][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[12:59:34][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:59:34][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:59:34][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[12:59:41][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[12:59:41][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[12:59:41][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[12:59:41][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[12:59:41][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:00:35][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:00:35][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:00:35][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:00:35][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:00:35][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:00:37][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:00:37][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[13:00:37][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:00:37][INFO ][BoardController.java:216] - 
+[13:00:37][INFO ][BoardController.java:220] - 1
+[13:00:37][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:00:37][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:00:37][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:00:37][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:00:37][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:00:37][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:00:37][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:00:40][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:00:40][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:00:40][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:00:40][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:00:40][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:00:41][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:00:41][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:00:41][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:00:41][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:00:41][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:00:47][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:00:47][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[13:00:47][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:00:47][INFO ][BoardController.java:216] - 파이널프로젝트일정.txt
+[13:00:47][INFO ][BoardController.java:220] - 1
+[13:00:47][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:00:47][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:00:47][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:00:47][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:00:47][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:00:47][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:00:47][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:01:47][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[13:01:54][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 6345 ms
+[13:01:54][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[13:02:00][INFO ][FrameworkServlet.java:546] - Completed initialization in 6567 ms
+[13:02:06][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:02:06][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:02:06][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:02:07][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:02:07][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:02:07][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:02:08][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:02:08][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:02:09][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:02:09][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:02:11][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:02:11][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:02:11][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:02:11][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:02:11][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:02:15][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:02:15][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[13:02:15][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:02:15][INFO ][BoardController.java:216] - 
+[13:02:15][INFO ][BoardController.java:220] - 1
+[13:02:15][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:02:15][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:02:15][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:02:15][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:02:15][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:02:15][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:02:16][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:03:04][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[13:03:11][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 6613 ms
+[13:03:11][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[13:03:18][INFO ][FrameworkServlet.java:546] - Completed initialization in 6648 ms
+[13:03:18][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:03:18][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:03:18][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:03:20][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:03:21][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:03:21][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:03:21][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:03:21][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:03:21][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:03:21][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:03:22][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:03:22][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:03:22][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:03:22][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:03:22][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:03:29][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:03:29][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[13:03:29][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:03:29][INFO ][BoardController.java:216] - 쇼핑몰.txt
+[13:03:29][INFO ][BoardController.java:220] - 1
+[13:03:29][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:03:29][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:03:29][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:03:29][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:03:29][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:03:29][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:03:29][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:03:30][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:03:30][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:03:30][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:03:31][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:03:31][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:03:31][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:03:31][DEBUG][LoggerInterceptor.java:28] - /second/bfdown.do
+[13:03:31][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:03:31][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:03:31][DEBUG][AbstractView.java:309] - View name 'nbfiledown', model {downFile={savePath=C:\dev\framework_workspace\second\src\main\webapp\resources\bupfiles, rfileName=20200907130329.txt, ofileName=쇼핑몰.txt}}
+[13:03:31][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:03:33][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:03:33][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:03:33][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:03:33][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:03:33][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:03:35][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:03:35][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:03:35][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:03:35][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:03:35][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:03:36][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:03:36][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:03:36][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:03:36][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:03:36][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:03:40][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:03:40][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[13:03:40][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:03:40][INFO ][BoardController.java:216] - 
+[13:03:40][INFO ][BoardController.java:220] - 1
+[13:03:40][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:03:40][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:03:40][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:03:40][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:03:40][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:03:40][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:03:40][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:03:41][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:03:41][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:03:41][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:03:41][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:03:41][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:04:29][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[13:04:36][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 6525 ms
+[13:04:36][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[13:04:43][INFO ][FrameworkServlet.java:546] - Completed initialization in 6705 ms
+[13:04:44][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:04:44][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:04:44][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:04:47][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:04:47][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:04:49][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:04:49][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:04:49][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:04:49][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:04:49][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:04:51][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:04:51][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:04:51][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:04:51][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:04:51][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:04:58][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:04:58][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[13:04:58][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:04:58][INFO ][BoardController.java:216] - 시베리아 호랑이.jpg
+[13:04:58][INFO ][BoardController.java:220] - 1
+[13:04:58][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:04:58][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:04:58][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:04:58][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:04:58][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:04:58][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:04:58][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:04:59][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:04:59][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:04:59][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:04:59][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:04:59][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:05:01][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:05:01][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:05:01][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:05:01][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:05:01][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:05:05][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:05:05][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[13:05:05][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:05:05][INFO ][BoardController.java:216] - 
+[13:05:05][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:05:05][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:05:05][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:05:05][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:05:05][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:05:05][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:05:05][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:05:06][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:05:06][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:05:06][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:05:06][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:05:06][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:05:09][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:05:09][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:05:09][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:05:09][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:05:09][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:05:12][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:05:12][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:05:12][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:05:12][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:05:12][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:05:24][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:05:24][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:05:24][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:05:24][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:05:24][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:05:25][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:05:25][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:05:25][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:05:25][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:05:25][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:05:27][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:05:27][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[13:05:27][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:05:27][INFO ][BoardController.java:216] - 
+[13:05:27][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:05:27][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:05:27][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:05:27][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:05:27][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:05:27][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:05:27][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:05:29][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:05:29][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:05:29][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:05:29][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:05:29][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:05:30][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:05:30][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:05:30][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:05:30][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:05:30][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:05:32][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:05:32][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[13:05:32][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:05:32][INFO ][BoardController.java:216] - 
+[13:05:32][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:05:32][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:05:32][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:05:32][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:05:32][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:05:32][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:05:32][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:08:43][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[13:08:49][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 6655 ms
+[13:08:49][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[13:08:56][INFO ][FrameworkServlet.java:546] - Completed initialization in 6602 ms
+[13:09:00][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:09:00][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:09:00][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:09:02][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:09:03][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:09:04][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:09:04][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:09:04][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:09:04][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:09:04][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:09:06][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:09:06][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:09:06][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:09:06][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:09:06][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:09:07][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:09:07][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[13:09:07][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:09:07][INFO ][BoardController.java:216] - 
+[13:09:07][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:09:07][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:09:07][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:09:07][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:09:07][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:09:07][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:09:07][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:10:28][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[13:10:35][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 6551 ms
+[13:10:35][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[13:10:42][INFO ][FrameworkServlet.java:546] - Completed initialization in 6647 ms
+[13:10:44][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:10:44][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:10:44][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:10:46][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:10:47][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:10:48][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:10:48][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:10:48][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:10:48][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:10:48][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:10:49][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:10:49][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:10:49][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:10:49][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:10:49][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:10:51][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:10:51][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[13:10:51][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:10:52][INFO ][BoardController.java:216] - 
+[13:10:52][INFO ][BoardController.java:234] - 2
+[13:10:52][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:10:52][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:10:52][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:10:52][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:10:52][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:10:52][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:10:52][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:10:54][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:10:54][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:10:54][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:10:54][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:10:54][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:10:55][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:10:55][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:10:55][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:10:55][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:10:55][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:11:01][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:11:01][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[13:11:01][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:11:01][INFO ][BoardController.java:216] - 파이널프로젝트일정.txt
+[13:11:01][INFO ][BoardController.java:220] - 1
+[13:11:01][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:11:01][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:11:01][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:11:01][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:11:01][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:11:01][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:11:01][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:11:03][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:11:03][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:11:03][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:11:03][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:11:03][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:11:04][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:11:04][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:11:04][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:11:04][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:11:04][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:11:07][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:11:07][DEBUG][LoggerInterceptor.java:28] - /second/boriginup.do
+[13:11:07][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:11:07][INFO ][BoardController.java:216] - 
+[13:11:07][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:11:07][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:11:07][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:11:07][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:11:07][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:11:07][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:11:07][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:11:12][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:11:12][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:11:12][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:11:12][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:11:12][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:11:13][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:11:13][DEBUG][LoggerInterceptor.java:28] - /second/replyform.do
+[13:11:13][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:11:13][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:11:13][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:11:16][WARN ][DispatcherServlet.java:1248] - No mapping for POST /second/breply.do
+[13:11:46][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:11:46][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:11:46][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:11:46][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:11:46][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:11:48][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:11:48][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:11:48][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:11:48][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:11:48][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:11:55][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:11:55][DEBUG][LoggerInterceptor.java:28] - /second/bdelete.do
+[13:11:55][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:11:55][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:11:55][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:11:55][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:11:55][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:11:55][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:11:55][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:11:55][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:14:51][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[13:14:57][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 6638 ms
+[13:14:58][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[13:15:04][INFO ][FrameworkServlet.java:546] - Completed initialization in 6601 ms
+[13:15:05][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:15:05][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:15:05][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:15:07][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:15:08][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:15:10][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:15:10][DEBUG][LoggerInterceptor.java:28] - /second/writeForm.do
+[13:15:10][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:15:10][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:15:10][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:15:20][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:15:20][DEBUG][LoggerInterceptor.java:28] - /second/binsert.do
+[13:15:20][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:15:20][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:15:20][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:15:20][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:15:20][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:15:20][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:15:20][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:15:20][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:15:30][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:15:30][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:15:30][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:15:30][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:15:30][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:15:32][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:15:32][DEBUG][LoggerInterceptor.java:28] - /second/bdelete.do
+[13:15:32][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:15:32][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:15:32][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:15:32][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:15:32][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:15:32][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:15:32][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:15:32][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:16:57][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:16:57][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:16:57][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:16:57][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:16:57][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:17:00][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:17:00][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:17:00][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:17:00][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:17:00][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:17:01][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:17:01][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:17:01][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:17:01][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:17:01][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:17:02][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:17:02][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:17:02][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:17:02][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:17:02][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:17:08][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:17:08][DEBUG][LoggerInterceptor.java:28] - /second/main.do
+[13:17:08][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:17:08][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:17:08][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:17:08][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:17:08][DEBUG][LoggerInterceptor.java:28] - /second/ntop3.do
+[13:17:08][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:17:08][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:17:08][DEBUG][LoggerInterceptor.java:28] - /second/btop3.do
+[13:17:08][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:17:08][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:17:08][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:17:08][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:17:08][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:17:14][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:17:14][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:17:14][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:17:14][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:17:14][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:17:15][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:17:15][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:17:15][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:17:15][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:17:15][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:17:16][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:17:16][DEBUG][LoggerInterceptor.java:28] - /second/writeForm.do
+[13:17:16][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:17:16][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:17:16][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:17:19][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:17:19][DEBUG][LoggerInterceptor.java:28] - /second/binsert.do
+[13:17:19][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:17:19][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:17:19][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:17:19][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:17:19][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:17:19][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:17:19][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:17:19][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:17:20][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:17:20][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:17:20][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:17:20][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:17:20][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:17:22][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:17:22][DEBUG][LoggerInterceptor.java:28] - /second/replyform.do
+[13:17:22][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:17:22][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:17:22][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:36:17][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[13:36:23][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 6487 ms
+[13:36:23][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[13:36:30][INFO ][FrameworkServlet.java:546] - Completed initialization in 6444 ms
+[13:36:32][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:36:32][DEBUG][LoggerInterceptor.java:28] - /second/replyform.do
+[13:36:32][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:36:32][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:36:34][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:02][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:02][DEBUG][LoggerInterceptor.java:28] - /second/replyform.do
+[13:37:02][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:02][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:03][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:09][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:09][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:37:09][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:11][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:12][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:14][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:14][DEBUG][LoggerInterceptor.java:28] - /second/main.do
+[13:37:14][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:14][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:14][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:14][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:14][DEBUG][LoggerInterceptor.java:28] - /second/ntop3.do
+[13:37:14][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:14][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:14][DEBUG][LoggerInterceptor.java:28] - /second/btop3.do
+[13:37:14][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:14][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:14][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:14][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:14][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:15][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:15][DEBUG][LoggerInterceptor.java:28] - /second/loginPage.do
+[13:37:15][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:15][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:15][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:19][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:19][DEBUG][LoggerInterceptor.java:28] - /second/login.do
+[13:37:19][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:19][INFO ][MemberController.java:36] - login.do : user02, pass02
+[13:37:19][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:19][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:19][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:19][DEBUG][LoggerInterceptor.java:28] - /second/ntop3.do
+[13:37:19][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:19][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:19][DEBUG][LoggerInterceptor.java:28] - /second/btop3.do
+[13:37:19][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:19][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:19][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:19][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:19][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:20][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:20][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:37:20][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:20][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:20][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:24][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:24][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:37:24][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:24][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:24][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:26][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:26][DEBUG][LoggerInterceptor.java:28] - /second/replyform.do
+[13:37:26][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:26][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:26][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:28][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:28][DEBUG][LoggerInterceptor.java:28] - /second/breply.do
+[13:37:28][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:28][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:28][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:28][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:28][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:37:28][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:28][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:28][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:32][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:32][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:37:32][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:32][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:32][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:35][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:35][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:37:35][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:35][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:35][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:36][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:36][DEBUG][LoggerInterceptor.java:28] - /second/writeForm.do
+[13:37:36][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:36][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:36][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:37][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:37][DEBUG][LoggerInterceptor.java:28] - /second/main.do
+[13:37:37][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:37][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:37][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:37][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:37][DEBUG][LoggerInterceptor.java:28] - /second/ntop3.do
+[13:37:37][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:37][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:37][DEBUG][LoggerInterceptor.java:28] - /second/btop3.do
+[13:37:37][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:37][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:37][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:37][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:37][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:38][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:38][DEBUG][LoggerInterceptor.java:28] - /second/logout.do
+[13:37:38][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:38][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:38][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:38][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:38][DEBUG][LoggerInterceptor.java:28] - /second/ntop3.do
+[13:37:38][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:38][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:38][DEBUG][LoggerInterceptor.java:28] - /second/btop3.do
+[13:37:38][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:38][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:38][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:38][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:38][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:39][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:39][DEBUG][LoggerInterceptor.java:28] - /second/loginPage.do
+[13:37:39][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:39][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:39][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:54][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:54][DEBUG][LoggerInterceptor.java:28] - /second/loginPage.do
+[13:37:54][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:54][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:54][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:59][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:59][DEBUG][LoggerInterceptor.java:28] - /second/login.do
+[13:37:59][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:59][INFO ][MemberController.java:36] - login.do : user01, pass01
+[13:37:59][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:59][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:59][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:59][DEBUG][LoggerInterceptor.java:28] - /second/ntop3.do
+[13:37:59][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:59][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:37:59][DEBUG][LoggerInterceptor.java:28] - /second/btop3.do
+[13:37:59][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:37:59][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:59][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:37:59][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:37:59][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:38:01][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:38:01][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:38:01][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:38:01][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:38:01][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:38:02][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:38:02][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:38:02][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:38:02][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:38:02][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:40:20][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:40:20][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:40:20][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:40:20][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:40:21][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:42:11][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:42:11][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:42:11][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:42:11][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:42:11][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:42:15][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:42:15][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:42:15][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:42:15][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:42:16][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:45:33][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:45:33][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:45:33][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:45:33][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:45:33][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:45:35][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:45:35][DEBUG][LoggerInterceptor.java:28] - /second/replyform.do
+[13:45:35][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:45:35][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:45:35][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:45:38][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:45:38][DEBUG][LoggerInterceptor.java:28] - /second/breply.do
+[13:45:38][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:45:38][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:45:38][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:45:38][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:45:38][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:45:38][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:45:38][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:45:38][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:49:07][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:49:07][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:49:07][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:49:07][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:49:07][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:49:12][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:49:12][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:49:12][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:49:12][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:49:12][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:52:57][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[13:53:03][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 6562 ms
+[13:53:04][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[13:53:10][INFO ][FrameworkServlet.java:546] - Completed initialization in 6644 ms
+[13:53:10][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:53:10][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:53:10][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:53:13][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:53:14][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:53:17][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:53:17][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:53:17][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:53:17][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:53:17][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:53:19][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:53:19][DEBUG][LoggerInterceptor.java:28] - /second/replyform.do
+[13:53:19][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:53:19][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:53:19][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:53:21][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:53:21][DEBUG][LoggerInterceptor.java:28] - /second/breply.do
+[13:53:21][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:53:21][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:53:21][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:53:21][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:53:21][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:53:21][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:53:21][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:53:21][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:53:26][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:53:26][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:53:26][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:53:26][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:53:26][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:53:30][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:53:30][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:53:30][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:53:30][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:53:30][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:53:32][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:53:32][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:53:32][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:53:32][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:53:32][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:53:33][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:53:33][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:53:33][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:53:33][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:53:33][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:53:37][WARN ][DispatcherServlet.java:1248] - No mapping for POST /second/breplyup.do
+[13:56:52][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[13:56:58][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 6458 ms
+[13:56:58][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[13:57:05][INFO ][FrameworkServlet.java:546] - Completed initialization in 6713 ms
+[13:57:06][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:57:06][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:57:06][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:57:08][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:57:09][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:57:12][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:57:12][DEBUG][LoggerInterceptor.java:28] - /second/breplyup.do
+[13:57:12][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:57:13][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:58:34][INFO ][ContextLoader.java:270] - Root WebApplicationContext: initialization started
+[13:58:41][INFO ][ContextLoader.java:306] - Root WebApplicationContext initialized in 6901 ms
+[13:58:41][INFO ][FrameworkServlet.java:524] - Initializing Servlet 'appServlet'
+[13:58:48][INFO ][FrameworkServlet.java:546] - Completed initialization in 6972 ms
+[13:58:50][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:58:50][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:58:50][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:58:53][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:58:53][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:58:57][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:58:57][DEBUG][LoggerInterceptor.java:28] - /second/breplyup.do
+[13:58:57][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:58:57][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:58:57][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:58:57][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:58:57][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:58:57][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:58:57][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:58:57][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:58:59][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:58:59][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:58:59][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:58:59][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:58:59][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:59:00][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:59:00][DEBUG][LoggerInterceptor.java:28] - /second/bupview.do
+[13:59:00][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:59:00][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:59:00][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:59:04][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:59:04][DEBUG][LoggerInterceptor.java:28] - /second/breplyup.do
+[13:59:04][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:59:04][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:59:04][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:59:04][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:59:04][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:59:04][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:59:04][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:59:04][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:59:07][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:59:07][DEBUG][LoggerInterceptor.java:28] - /second/bdetail.do
+[13:59:07][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:59:07][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:59:07][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:59:09][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:59:09][DEBUG][LoggerInterceptor.java:28] - /second/blist.do
+[13:59:09][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:59:09][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:59:09][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:59:18][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:59:18][DEBUG][LoggerInterceptor.java:28] - /second/main.do
+[13:59:18][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:59:18][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:59:18][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:59:18][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:59:18][DEBUG][LoggerInterceptor.java:28] - /second/ntop3.do
+[13:59:18][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:59:18][DEBUG][LoggerInterceptor.java:27] - ================== START =================
+[13:59:18][DEBUG][LoggerInterceptor.java:28] - /second/btop3.do
+[13:59:18][DEBUG][LoggerInterceptor.java:29] - ------------------------------------------
+[13:59:18][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:59:18][DEBUG][LoggerInterceptor.java:41] - ----------------------- view ---------------------
+[13:59:18][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================
+[13:59:18][DEBUG][LoggerInterceptor.java:50] - ======================== END ======================

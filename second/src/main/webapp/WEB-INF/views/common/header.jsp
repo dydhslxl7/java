@@ -92,7 +92,7 @@ hr { clear: both; }
 <li><a href="${ pageContext.servletContext.contextPath }/moveFile.do">파일업로드/다운로드 테스트</a></li>
 <li><a href="moveCrypto.do">암호화회원가입</a></li>
 <li><a href="${ pageContext.servletContext.contextPath }/moveAjax.do">Ajax테스트</a></li>
-<li><a href="#">#</a></li>
+<li><a href="moveAoP.do">AOP란?</a></li>
 <li><a href="${ pageContext.servletContext.contextPath }/main.do">Home</a></li>
 </ul>  
 </c:if>

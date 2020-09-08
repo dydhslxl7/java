@@ -41,7 +41,7 @@
 	<input type="file" name="upfile"><!--  여러개 등록하려면 인풋타입 여러개 해야함 -->
 	</td>
 </tr>
-<tr><th>내 용</th><td><textarea rows="5" cols="50" name="content">${ board.board_content }</textarea></td></tr>
+<tr><th>내 용</th><td><textarea rows="5" cols="50" name="board_content">${ board.board_content }</textarea></td></tr>
 <tr><th colspan="2">
 <input type="submit" value="수정하기"> &nbsp; 
 <input type="reset" value="작성취소"> &nbsp;
@@ -52,15 +52,15 @@
 </c:if>
 <c:if test="${ board.board_level ne 0 }">
 <form action="breplyup.do" method="post" >
-<input type="hidden" name="bnum" value="${ board.board_num }">
+<input type="hidden" name="board_num" value="${ board.board_num }">
 <input type="hidden" name="page" value= "${ currentPage }">
 <table align="center" width="500" border="1" cellspacing="0" cellpadding="5">
-<tr><th>제 목</th><td><input type="text" name="title" size="50" value="${ board.board_title }"></td></tr>
+<tr><th>제 목</th><td><input type="text" name="board_title" size="50" value="${ board.board_title }"></td></tr>
 <tr><th>작성자</th>
-	<td><input type="text" name="writer" readonly value="${ board.board_writer }"></td></tr>
+	<td><input type="text" name="board_writer" readonly value="${ board.board_writer }"></td></tr>
 </tr>
 
-<tr><th>내 용</th><td><textarea rows="5" cols="50" name="content" >${ board.board_content }</textarea></td></tr>
+<tr><th>내 용</th><td><textarea rows="5" cols="50" name="board_content" >${ board.board_content }</textarea></td></tr>
 <tr><th colspan="2">
 <input type="submit" value="수정하기"> &nbsp; 
 <input type="reset" value="작성취소"> &nbsp;

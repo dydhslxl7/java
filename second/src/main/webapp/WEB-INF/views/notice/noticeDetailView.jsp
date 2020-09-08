@@ -13,8 +13,7 @@
 <hr>
 <h2 align="center">${ notice.noticeno } 번 공지 상세보기</h2>
 <br>
-<table align="center" width="500" border="1" cellspacing="0" 
-cellpadding="5">
+<table align="center" width="500" border="1" cellspacing="0" cellpadding="5">
 <tr><th>제 목</th><td>${ notice.noticetitle }</td></tr>
 <tr><th>작성자</th><td>${ notice.noticewriter }</td></tr>
 <tr><th>등록날짜</th><td><fmt:formatDate value="${ notice.noticedate }" pattern="yyyy-MM-dd"/></td></tr>

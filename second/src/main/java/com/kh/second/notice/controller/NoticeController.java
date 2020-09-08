@@ -6,6 +6,8 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -62,11 +64,37 @@ public class NoticeController {
 		return mv;
 	}
 
-	//	@RequestMapping("nfdown.do")
-	//	public void noticeFileDown() {
-	//		
-	//	}
+	@RequestMapping("nfdown.do")
+	public ModelAndView fileDownloadMethod(HttpServletRequest request) {
+		
+		Map<String, Object> fileInfo = new HashMap<String, Object>();
+		
+		String savePath = request.getSession().getServletContext().getRealPath("resources/nupfiles");
+		String ofileName = request.getParameter("ofile");
+		String rfileName = request.getParameter("rfile");
+		
+		fileInfo.put("savePath", savePath);
+		fileInfo.put("ofileName", ofileName);
+		fileInfo.put("rfileName", rfileName);
 
+		return new ModelAndView("nbfiledown","downFile", fileInfo); //filedown 과같은 이름의 view클래스가 있어야함
+	}
+	
+//	@RequestMapping("nfdown.do")
+//	public ModelAndView fileDownloadMethod(HttpServletRequest request, @RequestParam("rfile") String renameFileName,
+//			@RequestParam("ofile") String originalFileName) {
+//		logger.info("ndown.do : "+ renameFileName);
+//
+//		String savePath = request.getSession().getServletContext().getRealPath("/resources/nupfiles");
+//
+//		Map<String, Object> fileInfo = new HashMap<String, Object>();
+//		fileInfo.put("originalFileName", originalFileName);
+//		fileInfo.put("renameFileName", savePath + "\\" +renameFileName);
+//
+//
+//		return new ModelAndView("nbfiledown","downFile", fileInfo); //filedown 과같은 이름의 view클래스가 있어야함
+//	}
+	
 	@RequestMapping("adnlist.do")
 	public ModelAndView moveAdminNoticeList(ModelAndView mv) {
 		ArrayList<Notice> list = noticeService.selectList();
@@ -133,10 +161,12 @@ public class NoticeController {
 	}
 
 	@RequestMapping("ndel.do")
-	public String noticeDelete(@RequestParam("noticeno") String no, Model model) {
-		if(noticeService.deleteNotice(Integer.parseInt(no)) > 0) {
-
-
+	public String noticeDelete(HttpServletRequest request, Notice notice, Model model) {
+		
+		if(noticeService.deleteNotice(notice.getNoticeno()) > 0) {
+			String rfileName = notice.getRename_filepath();
+			String savePath = request.getSession().getServletContext().getRealPath("resources/nupfiles");
+			new File(savePath + "\\" + rfileName).delete();
 			return "redirect:adnlist.do";
 		}else {
 			model.addAttribute("message", "공지사항 삭제 실패!");
@@ -169,7 +199,7 @@ public class NoticeController {
 
 		if (newOriginalFileName != null) {
 			newRenameFileName = sdf.format(new java.sql.Date(System.currentTimeMillis()));
-			newRenameFileName += "." + newOriginalFileName.substring(originalFileName.lastIndexOf(".") + 1);
+			newRenameFileName += "." + newOriginalFileName.substring(newOriginalFileName.lastIndexOf(".") + 1);
 			try {
 				upfile.transferTo(new File(savePath + "\\" + newRenameFileName));
 			} catch (IllegalStateException | IOException e) {

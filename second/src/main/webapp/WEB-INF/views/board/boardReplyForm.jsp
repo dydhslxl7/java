@@ -14,22 +14,22 @@
 <title>second</title>
 </head>
 <body>
-<h1 align="center">${ board_num }번 글 댓글달기 페이지</h1>
 <c:import url="../common/header.jsp"/>
 <hr>
+<h1 align="center">${ boardNum }번 글 댓글달기 페이지</h1>
 <form action="breply.do" method="post" >
-<input type ="hidden" name="bnum" value="${ board_num }">
+<input type ="hidden" name="board_ref" value="${ boardNum }">
 <input type = "hidden" name= "page" value = "${ currentPage }">
 <table align="center" width="500" border="1" cellspacing="0" cellpadding="5">
-<th>제 목</th><td><input type="text" name="title" size="50"></td>
-<tr><th>작성자</th><td><input type="text" name="writer" readonly value="${ loginMember.userid }"></td></tr>
+<th>제 목</th><td><input type="text" name="board_title" size="50"></td>
+<tr><th>작성자</th><td><input type="text" name="board_writer" readonly value="${ loginMember.userid }"></td></tr>
 </tr>
 <tr>
 
 
 	</td>
 </tr>
-<tr><th>내 용</th><td><textarea rows="5" cols="50" name="content"></textarea></td></tr>
+<tr><th>내 용</th><td><textarea rows="5" cols="50" name="board_content"></textarea></td></tr>
 <tr><th colspan="2">
 <input type="submit" value="등록하기"> &nbsp; 
 <input type="reset" value="작성취소"> &nbsp;

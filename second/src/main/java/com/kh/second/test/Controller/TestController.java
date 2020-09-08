@@ -119,6 +119,11 @@ public class TestController {
 		return "test/testCrypto";
 	}
 	
+	@RequestMapping("moveAoP.do")
+	public String moveAOPPage() {
+		return "test/testAOPPage";
+	}
+	
 	//파일 업로드 테스트 메소드 -------------------------------------
 	@RequestMapping(value="tinsert.do", method=RequestMethod.POST)
 	public String testFileUpload(Sample sample, HttpServletRequest request, @RequestParam(name="upfile", required=false) MultipartFile file) {
