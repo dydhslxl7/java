@@ -29,6 +29,7 @@ public class Answer {
 
     private LocalDateTime createDate;
 
+    // Answer : Question = N : 1
     @ManyToOne
     private Question question;
     

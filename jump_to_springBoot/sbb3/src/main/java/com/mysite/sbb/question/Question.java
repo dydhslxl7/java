@@ -19,22 +19,26 @@ import jakarta.persistence.OneToMany;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
-@Setter
-@Entity
+@Getter // 롬복의 애너테이션
+@Setter // 롬복의 애너테이션
+@Entity // JPA로 인식하게 만듦
 public class Question {
-    @Id
+    @Id // 고유키
+    // @GeneratedValue : 자동 + 1
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    // Column의 세부 설정을 위해 사용
     @Column(length = 200)
     private String subject;
 
+    // columnDefinition은 컬럼의 속성을 정의할 때 사용
     @Column(columnDefinition = "TEXT")
     private String content;
 
     private LocalDateTime createDate;
 
+    // Answer : Question = 1 : N
     @OneToMany(mappedBy = "question", cascade = CascadeType.REMOVE)
     private List<Answer> answerList;
     
