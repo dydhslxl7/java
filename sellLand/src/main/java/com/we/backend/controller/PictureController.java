@@ -1,4 +1,4 @@
-package monthsago.travel16.controller;
+package com.we.backend.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
